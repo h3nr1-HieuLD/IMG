@@ -1,4 +1,8 @@
 .custom-header__logo {
-  padding-top: 5px;
-  padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50px; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it behaves like a block element */
+    margin: 0 auto; /* Center the logo horizontally */
 }
