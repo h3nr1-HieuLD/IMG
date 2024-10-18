@@ -1,8 +1,25 @@
-.custom-header__logo {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 50px; /* Example width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure it behaves like a block element */
-    margin: 0 auto; /* Center the logo horizontally */
+#main {
+    padding: 0 !important;
+}
+
+#menu-menu-main li span {
+    color: white;
+}
+.wgl-logotype-container {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .wgl-logotype-container {
+        max-width: 500px; /* Adjust as needed */
+    }
+}
+
+@media (min-width: 1024px) {
+    .wgl-logotype-container {
+        max-width: 700px; /* Adjust as needed */
+    }
 }
